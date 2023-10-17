@@ -10,3 +10,6 @@ Nama Kelompok:
 library needed
   1. SDL2
   2. SDL2_Net
+
+Compile
+  make or mingw32-make
