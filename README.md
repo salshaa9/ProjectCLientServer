@@ -6,3 +6,7 @@ Nama Kelompok:
 2. Salsabhilla Anggraeni W.
 (5221600019)
 4. Aynur Rofiqoh (5221600029)
+
+library needed
+  1. SDL2
+  2. SDL2_Net
