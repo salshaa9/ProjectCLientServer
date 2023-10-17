@@ -1,0 +1,14 @@
+All:
+
+server : server.cpp common.cpp
+	g++ -o build/server server.cpp -lSDL2 -lSDL2_net
+	./build/server
+
+client: client.cpp common.cpp
+	g++ -o build/client client.cpp -lSDL2 -lSDL2_net
+	./build/client
+
+
+clean:
+	rm build/server
+	rm build/client
